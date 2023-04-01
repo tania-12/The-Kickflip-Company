@@ -9,17 +9,15 @@
     src: url(BebasNeueRegular-gxj83.ttf);
   }
 :root{
-    --left-bg-color:rgba(250, 144, 82, 0.7);
-    --right-bg-color:rgba(76, 128, 119, 0.8);
-    --left-btn-hover-color: rgba(250, 144, 82, 1);
-    --right-btn-hover-color: rgba(76, 128, 119, 1);
+    --left-bg-color:rgba(179, 57, 81, 0.7);
+    --right-bg-color:rgba(75, 136, 162, 0.8);
+    --left-btn-hover-color: rgba(179, 57, 81, 1);
+    --right-btn-hover-color: rgba(75, 136, 162, 1);
     --hover-width: 75%;
     --other-width: 25%;
     --speed: 1000ms;
 }
-#logo {
-    padding: 20px;
-}
+
 header{
     margin-top: 50px;
     padding-top: 60px;
@@ -41,7 +39,7 @@ body {
     font-size: 20px;
     position: fixed;
     z-index: 1;
-    background-color: #BCA79D;
+    background-color: #1e1c1c;
     top: 0;
     left: 0;
     right: 0;
@@ -75,14 +73,25 @@ body {
     color: white;
 }
 
-
+.sale{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 30px;
+    padding: 30px;
+    margin: 30px 0 15px 0;
+}
+#saleBanner{
+    font-family: BebasBold;
+    font-size: 70px;
+}
 /*Carousel*/
 .wrapper{
     position: relative;
     text-align: center;
     justify-content: center;
     padding: 20px;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
 }
 
 .carousel{
@@ -225,7 +234,7 @@ h1{
 /*Testimonials*/
 .testimonial-container {
     font-family: Bebas;
-    background-color: #FFE8D2;
+    background-color: #f5efed;
     color: #000;
     border-radius: 15px;
     margin: 100px auto;
@@ -235,7 +244,7 @@ h1{
   }
   
   .fa-quote {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 28px;
     position: absolute;
     top: 70px;
@@ -298,7 +307,7 @@ h1{
 }
 
 footer{
-    background-color: #BCA79D;
+    background-color: #1e1c1c;
     font-family: Bebas;
     color: #fff;
     justify-content: center;

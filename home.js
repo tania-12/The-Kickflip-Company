@@ -92,3 +92,15 @@ function changeImage(){
 
     imgs.style.transform = `translateX(${-idy * 1200}px)`
 }
+
+let i = 0;
+let txt = 'Easter Sale: 30% of Everything';
+let speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("saleBanner").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
