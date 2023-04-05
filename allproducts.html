@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+    <!-- Import FontAwesome (for icons) -->
+    <script src="https://kit.fontawesome.com/cbc5c86ad3.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" href = "allproductstyle.css">
+    <title>Sk8rGrl - Products</title>
+</head>
+
+<body>
+    <!--- SUBSTITUTE NAVBAR HERE -->
+    <nav class="nav">
+        <div class="container">
+            <h1 class = "logo"><a href = "products.html"><img src = "assets/girl.png" class = "logo">sk8rGrl</a></h1>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "products.html" class = "active">Products</a></li>
+                <li><a href = "#">Courses</a></li>
+                <li><a href = "#">Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--- SUBSTITUTE NAVBAR ABOVE -->
+
+    <h1>Skate Shop</h1>
+
+    <!-- Filter by Category -->
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">Show all</button>
+        <button class="btn" onclick="filterSelection('regular')">Regular Skateboards</button>
+        <button class="btn" onclick="filterSelection('longboards')">Longboards</button>
+        <button class="btn" onclick="filterSelection('parts')">Skate Parts</button>
+        <button class="btn" onclick="filterSelection('roller-skates')">Roller Shakes</button>
+        <button class="btn" onclick="filterSelection('helmet-pads')">Helmets and Pads</button>
+    </div>
+
+    <!--- Container for All Products-->
+    <div class="product-container">
+        <!--- Classic Deck -->
+        <div class="product regular show">
+            <a href = "productpage.html">
+                <div class="img-container">
+                    <img src="assets/decks/deck1.png" alt="deck1">
+                </div>
+                <div class="info">
+                    <h4 class = "category">Sk8rGrl Classic Deck</h4>
+                    <h3 class = "price">$34.99</h3>
+                </div>
+            </a>
+        </div>
+
+        <!--- Retro Deck 1 -->
+        <div class="product regular show">
+            <a href = "#">
+                <div class="img-container">
+                    <img src="assets/decks/deck2.png" alt="retro-1">
+                </div>
+                <div class = "info">
+                    <h4 class = "category">Sk8rGrl Retro - Zig-Zag Deck</h4>
+                    <h3 class="price">$35.99</h3>
+                </div>
+            </a>
+        </div>
+
+        <!--- Retro Deck 2 -->
+        <div class="product regular show" >
+            <div class="img-container">
+                <img src="assets/decks/deck3.png" alt="retro-2">
+            </div>
+            <div class = "info">
+                <h4 class = "category">Sk8rGrl Retro - Wave</h4>
+                <h3 class = "price">$39.99</h3>
+            </div>  
+        </div>
+
+        <!--- Retro Deck 3 -->
+        <div class="product regular show">
+            <div class="img-container">
+                <img src="assets/decks/deck4.png" alt="retro-3">
+            </div>
+            <div class = "info">
+                <h4 class = "category">Sk8rGrl 90s Retro - Squiggles</h4>
+                <h3 class = "price">$44.99</h3>
+            </div>
+        </div>
+
+        <!--- Retro Deck 3 -->
+        <div class="product roller-skates show">
+            <div class="img-container">
+                <img src="assets/decks/deck4.png" alt="blue-skates">
+            </div>
+            <div class = "info">
+                <h4 class = "category">Sk8rGrl Ice Blue Roller Skates</h4>
+                <h3 class = "price">$62.99</h3>
+            </div>
+        </div> 
+        
+        <!--- Skate Tool -->
+        <div class="product parts show">
+            <div class="img-container">
+                <img src="assets/parts/skate-tool.png" alt="skate-tool">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Standard Skate Tool</h3>
+                <h3 class = "price">$12.99</h3>
+            </div>
+        </div>
+        
+        <!--- Bearings -->
+        <div class="product parts show">
+            <div class="img-container">
+                <img src="assets/parts/bearings.png" alt="bearings">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Bearings (Pack of 4)</h3>
+                <h3 class = "price">$14.99</h3>
+            </div>
+        </div>  
+        
+        <!--- Orange Wheels -->
+        <div class="product parts show">
+            <div class="img-container">
+                <img src="assets/parts/orange-wheel.png" alt="orange-wheel">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Orange Wheels (Pack of 4)</h3>
+                <h3 class = "price">$25.99</h3>
+            </div>
+        </div>
+        
+        <!--- White Wheels -->
+        <div class="product parts show">
+            <div class="img-container">
+                <img src="assets/parts/white-wheel.png" alt="white-wheel">
+            </div>
+            <div class = "info">
+                <h3 class = "category">White Wheels (Pack of 4)</h3>
+                <h3 class = "price">$24.99</h3>
+            </div>
+        </div>   
+
+        <!--- Trucks -->
+        <div class="product parts show">
+            <div class="img-container">
+                <img src="assets/parts/trucks.png" alt="trucks">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Standard Trucks</h3>
+                <h3 class = "price">$34.99</h3>
+            </div>
+        </div>
+
+        <!--- Stickers - Caution -->
+        <div class="product stickers show">
+            <div class="img-container">
+                <img src="assets/stickers/sticker1.png" alt="sticker1">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Caution Sticker</h3>
+                <h3 class = "price">$3.99</h3>
+            </div>
+        </div>
+
+        <!--- Stickers - Space -->
+        <div class="product stickers show">
+            <div class="img-container">
+                <img src="assets/stickers/sticker2.png" alt="sticker2">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Sk8rGrl Space Sticker</h3>
+                <h3 class = "price">$4.99</h3>
+            </div>
+        </div>
+
+        <div class="product stickers show">
+            <div class="img-container">
+                <img src="assets/stickers/sticker3.png" alt="sticker3">
+            </div>
+            <div class = "info">
+                <h3 class = "category">Rad Raccoon Sticker</h3>
+                <h3 class = "price">$6.99</h3>
+            </div>
+        </div>
+       
+    </div>
+    <!-- Footer -->
+    <footer>
+        <h5>The Kickflip Company</h5>
+        <p>Shop with us today!</p>
+        <p>
+            <a href = "https://www.facebook.com"><i class = "fa-brands fa-facebook"></i></a>
+            <a href = "https://www.instagram.com"><i class = "fa-brands fa-instagram"></i></a>
+        </p>
+        <h6>Website by: Katelyn Villacres and Tania Sacoto</h6>
+    </footer>
+
+</body>
+</html>
