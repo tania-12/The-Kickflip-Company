@@ -5,7 +5,10 @@
 - Katelyn Villacres
 
 ## Files
-- [The Kickflip Company Whitepaper](WhitePaper_Project2.pdf)
+- [White Paper](WhitePaper_Project2.pdf)
+- [Gray Paper](CS355_GrayPaper.pdf)
+- [The Kickflip Company Recording](https://www.youtube.com/watch?v=Oah0DF2bW4g)
+
 
 ## Udemy
 - [Split Landing](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595626#overview)
