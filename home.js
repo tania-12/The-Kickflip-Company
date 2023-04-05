@@ -8,12 +8,11 @@ left.addEventListener('mouseleave', () => splitLanding.classList.remove('hover-l
 right.addEventListener('mouseenter', () => splitLanding.classList.add('hover-right'));
 right.addEventListener('mouseleave', () => splitLanding.classList.remove('hover-right'));
 
-
+/*Testimonials*/
 const testimonialsContainer = document.querySelector('.testimonials-container')
 const testimonial = document.querySelector('.testimonial')
-const userImage = document.querySelector('.user-image')
 const username = document.querySelector('.username')
-const role = document.querySelector('.role')
+
 
 const testimonials = [
   {
@@ -92,7 +91,7 @@ function changeImage(){
 
     imgs.style.transform = `translateX(${-idy * 1200}px)`
 }
-
+//Sale Typewriter
 let i = 0;
 let txt = 'Easter Sale: 30% of Everything';
 let speed = 50;

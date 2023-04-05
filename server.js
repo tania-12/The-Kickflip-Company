@@ -34,7 +34,7 @@ app.post('/submit-form', async (req, res) => {
   User Address: ${userAddress}
   User City: ${userCity}
   User State: ${userState}`)
-  res.send('<h1 style = "font-family: Arial; color: white; background-color: #BCA79D; text-align: center; height: 200px; width: 400px; border-radius: 10px; display: table; justify-content: center; line-height: 200px;">Order Submitted!</h1>');
+  res.send('<h1 style = "font-family: Arial; color: white; background-color: #1e1c1c; text-align: center; height: 200px; width: 400px; border-radius: 10px; display: table; justify-content: center; line-height: 200px;">Order Submitted!</h1>');
 });
 
 app.listen(port, () => {
